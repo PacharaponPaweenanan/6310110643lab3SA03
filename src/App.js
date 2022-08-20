@@ -14,11 +14,16 @@ return (
     <h1 className='head'>GameCard</h1>
     <p className='play'>NamePalyer</p>
     <p>{textInput}</p>
+   
      <WordCard value={word}/>
      <WordCard value={word2}/>
      <WordCard value={word3}/>
      <WordCard value={word4}/>
      <WordCard value={word5}/>
+     <p className='play'>Funny'?'</p>
+     <p>{textInput}</p>
+
+     
   </div>
   );
 }
